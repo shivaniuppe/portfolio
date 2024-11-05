@@ -1,0 +1,96 @@
+/* Style the main projects container */
+.projects {
+    background-color: black; /* White background */
+    color: white; /* Black text color */
+    padding: 40px;
+    text-align: center;
+}
+
+/* Title Styling */
+.projects-title {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Category Buttons Styling */
+.project-categories {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.category-button {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.category-button.active,
+.category-button:hover {
+    background-color: lightgray; /* Darker shade for hover */
+}
+
+/* Project Card Styling */
+.project-card {
+    background-color: black; /* Light gray background for contrast */
+    border: 1px solid lightgray; /* Subtle border */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    color: white;
+    text-align: left;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.project-card:hover {
+    transform: scale(1.02);
+}
+.project-name {
+    color: lightgray;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-card p {
+    font-size: 0.9rem; /* Smaller font for description */
+    line-height: 1.4;
+    color: lightgray;
+    margin-bottom: 1rem;
+}
+.project-card h3 {
+    font-size: 1.1rem; /* Smaller font for "Features" title */
+    margin-bottom: 0.5rem;
+    color: lightgray;
+}
+/* Features and Button Styling */
+.project-card ul {
+    list-style-type: disc;
+    margin-left: 1rem;
+    font-size: 0.85rem;
+    color: lightgray;
+}
+.project-card ul li {
+    margin-bottom: 0.3rem; /* Tighten spacing between list items */
+}
+
+.github-button {
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    font-size: 0.85rem;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.github-button:hover {
+    background-color: lightgray;
+}

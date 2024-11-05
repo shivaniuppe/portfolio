@@ -1,0 +1,52 @@
+.home {
+    height: 100vh;
+    background-color: black; /* White background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.circular-element {
+    background-color: white; /* Black background for the circle */
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures the image doesn't overflow the circle */
+    margin-bottom: 20px; /* Adds space between the circle and text */
+}
+
+.circular-element img {
+    width: 100%;  /* Ensures the image scales to fit the circle */
+    height: 100%; /* Ensures the image scales to fit the circle */
+    object-fit: cover; /* Maintains aspect ratio and covers the circular area */
+}
+
+.text-content {
+    margin-top: 20px; /* Adjust space below the image */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white; /* Green text color matching the second image */
+    font-family: 'Arial', sans-serif;
+    font-weight: bold; /* Match bold header */
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: white; /* Green subtitle */
+    margin-top: 0;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.5); /* Lighter, subtler underline color */
+    text-decoration-thickness: 1px;
+    text-underline-offset: 11px;
+}
+
+

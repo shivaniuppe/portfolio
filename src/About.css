@@ -1,0 +1,65 @@
+body {
+    background-color: black; /* White background */
+    color: white; /* Black text */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between; /* Space between info and skills */
+    padding: 50px 20px;
+    max-width: 1200px; /* Set a max-width to keep it centered */
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+.info-section, .skills-section {
+    width: 45%; /* Each section takes 45% of the width */
+}
+
+.info-section h1 {
+    font-size: 4rem;
+    color: white; /* Dark gray color for the heading */
+    text-transform: uppercase;
+}
+
+.info-section p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    line-height: 1.6;
+    color: white; /* Slightly lighter gray for paragraph text */
+}
+
+.skills-section h2 {
+    color: white; /* Darker color for heading */
+    font-size: 2rem;
+}
+
+.skill {
+    margin: 15px 0;
+}
+
+.skill span {
+    font-size: 1rem;
+    color: white; /* Dark gray for skill names */
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #222; /* Darker background */
+    height: 20px; /* Taller height for rectangle */
+    border-radius: 3px; /* Less rounded corners */
+    position: relative; /* Allows for positioning percentage text */
+}
+
+.progress {
+    background-color: #48c78e; /* Green color for progress */
+    height: 100%;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Aligns text to the right */
+    color: white; /* White color for text */
+    padding-right: 5px; /* Padding for text */
+    font-size: 0.9rem; /* Smaller font size */
+}
