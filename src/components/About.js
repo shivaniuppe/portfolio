@@ -1,5 +1,6 @@
 import React from 'react';
 import '/Users/shivaniuppe/Desktop/portfolio/src/About.css';
+import {Link} from "react-router-dom";
 
 function About() {
     const skills = [
@@ -25,7 +26,7 @@ function About() {
                     <br />
                     I'm an enthusiastic Full-Stack Web Developer, Problem Solver, and I'm a huge fan of Java and JavaScript. My aim is to solve real-world problems using applications of Computer Science.
                     <br />
-                    Check a few of my Projects <a href="/Projects" target="_blank">here</a>.
+                    Check a few of my Projects <Link to="/projects">here</Link>.
                 </p>
             </div>
 

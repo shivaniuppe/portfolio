@@ -94,3 +94,7 @@
 .github-button:hover {
     background-color: lightgray;
 }
+
+.project-card a{
+    text-decoration: none;
+}

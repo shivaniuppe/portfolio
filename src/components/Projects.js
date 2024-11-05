@@ -109,7 +109,9 @@ function Projects() {
                             <li key={i}>{feature}</li>
                         ))}
                     </ul>
-                    <button className="github-button">GitHub URL</button>
+                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="github-button">
+                        GitHub URL
+                    </a>
                 </div>
             ))}
         </div>
