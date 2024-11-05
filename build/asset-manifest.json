@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.f66563c7.css",
+    "main.js": "/portfolio/static/js/main.225c1f9d.js",
+    "static/media/profile_image.HEIC": "/portfolio/static/media/profile_image.ad4b9ac24be5c5d32ade.HEIC",
+    "static/media/Shivani-Uppe-Resume.pdf": "/portfolio/static/media/Shivani-Uppe-Resume.b97c6cc5606644278b75.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.f66563c7.css.map": "/portfolio/static/css/main.f66563c7.css.map",
+    "main.225c1f9d.js.map": "/portfolio/static/js/main.225c1f9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f66563c7.css",
+    "static/js/main.225c1f9d.js"
+  ]
+}
