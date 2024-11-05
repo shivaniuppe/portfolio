@@ -1,6 +1,6 @@
 import React from 'react';
-import '/Users/shivaniuppe/Desktop/port/src/Home.css';
-import profileImage from '/Users/shivaniuppe/Desktop/port/src/profile_image.HEIC'; // Replace with your actual image path
+import '/Users/shivaniuppe/Desktop/portfolio/src/Home.css';
+import profileImage from '/Users/shivaniuppe/Desktop/portfolio/src/profile_image.HEIC'; // Replace with your actual image path
 
 function Home() {
     return (

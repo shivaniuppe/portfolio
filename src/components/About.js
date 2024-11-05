@@ -1,5 +1,5 @@
 import React from 'react';
-import '/Users/shivaniuppe/Desktop/port/src/About.css';
+import '/Users/shivaniuppe/Desktop/portfolio/src/About.css';
 
 function About() {
     const skills = [

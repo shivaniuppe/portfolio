@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '/Users/shivaniuppe/Desktop/port/src/Projects.css';
+import '/Users/shivaniuppe/Desktop/portfolio/src/Projects.css';
 
 function Projects() {
     // State to track the selected category

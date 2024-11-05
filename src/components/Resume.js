@@ -1,6 +1,6 @@
 import React from 'react';
 // Importing the PDF file from the correct path (ensure this path points to the correct location)
-import Resume1 from '/Users/shivaniuppe/Desktop/port/src/Shivani-Uppe-Resume.pdf'; // Adjust the path if needed
+import Resume1 from '/Users/shivaniuppe/Desktop/portfolio/src/Shivani-Uppe-Resume.pdf'; // Adjust the path if needed
 
 function Resume() {
     return (
